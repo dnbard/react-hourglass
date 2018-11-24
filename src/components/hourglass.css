@@ -1,0 +1,58 @@
+.hourglass{
+    margin: 0 16px;
+    text-align: left;
+}
+
+.hourglass-selected{
+    text-align: left;
+}
+
+.hourglass-selected__title{
+    display: inline-block;
+    background: #426ed0;
+    padding: 0 8px;
+    position: relative;
+}
+
+.hourglass-childs__pseudo, .hourglass-childs__pseudo-top{
+    display: flex;
+    align-items: flex-end;
+    border-left: 1px solid;
+    min-height: 48px;
+    margin: -7px 16px -10px;
+}
+
+.hourglass-childs__pseudo-top{
+    align-items: flex-start;
+}
+
+.hourglass-childs__pseudo-h, .hourglass-childs__pseudo-htop{
+    display: flex;
+    width: 90%;
+    min-height: 16px;
+    border-top: 1px solid;
+}
+
+.hourglass-childs__pseudo-htop{
+    border-bottom: 1px solid;
+    border-top: 0px solid;
+}
+
+.hourglass-pseudo{
+    width: 100%;
+    border-right: 1px solid;
+}
+
+.hourglass-child, .hourglass-parent{
+    margin: 0 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.hourglass-childs, .hourglass-parents{
+    display: inline-block;
+}
+
+.hourglass-wrapper{
+    display: flex;
+}
